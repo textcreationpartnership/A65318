@@ -1,0 +1,400 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A dialogue between Mr. Merriman, and Dr. Chymist: concerning John Sergents paradoxes, in his New method to science, and his Solid philosophy. By T.W.</title>
+            <author>T. W.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1698</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 42 KB of XML-encoded text transcribed from 17 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A65318</idno>
+            <idno type="STC">Wing W115</idno>
+            <idno type="STC">ESTC R219887</idno>
+            <idno type="EEBO-CITATION">99831334</idno>
+            <idno type="PROQUEST">99831334</idno>
+            <idno type="VID">35797</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A65318)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 35797)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2118:10)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A dialogue between Mr. Merriman, and Dr. Chymist: concerning John Sergents paradoxes, in his New method to science, and his Solid philosophy. By T.W.</title>
+                  <author>T. W.</author>
+               </titleStmt>
+               <extent>32 p.   </extent>
+               <publicationStmt>
+                  <publisher>[s.n.],</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>printed in the year, 1698.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In response to Sergeant, John. Solid philosophy asserted, against the fancies of the ideists, or The method to science farther illustrated.</note>
+                  <note>Copy mounted; with print show-through.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Sergeant, John, 1622-1707. --  Solid philosophy asserted --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-10</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-12</date>
+            <label>Taryn Hakala</label>Sampled and proofread</change>
+         <change>
+            <date>2011-12</date>
+            <label>Taryn Hakala</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:35797:1" rendition="simple:additions"/>
+            <p>A DIALOGUE BETWEEN Mr. MERRIMAN, AND Dr. CHYMIST: CONCERNING JOHN SERGENTS Paradoxes, in his New Method to Science, and his Solid Philoſophy.</p>
+            <p>By <hi>T.W.</hi>
+            </p>
+            <p>
+               <hi>LONDON:</hi> Printed in the Year, 1698.</p>
+         </div>
+      </front>
+      <body>
+         <div type="dialogue">
+            <pb facs="tcp:35797:2"/>
+            <pb n="3" facs="tcp:35797:2"/>
+            <head>A DIALOGUE BETWEEN Mr. MERRIMAN and Dr. CHYMIST: <hi>Concerning</hi> John Sergent<hi>'s Paradoxes, in his New Method to</hi> Science, <hi>and his Solid Philoſophy.</hi>
+            </head>
+            <sp>
+               <speaker>Merriman,</speaker>
+               <p>WHAT you are hard at work Do<g ref="char:EOLhyphen"/>ctor, well! Does the Philoſophers Stone appear yet? You'll never leave off till you have loſt your Brains, and your Money; for generally this is the ef<g ref="char:EOLhyphen"/>fect of your Study, Poverty, and Madneſs; for I never knew any of you but dy'd Beggars; tho' once perhaps Maſters of plentiful Fortunes,
+<pb n="4" facs="tcp:35797:3"/> and this is enough to drive any Man out of his Wits. Come, come, be advis'd by a Friend, leave of this fooliſh Study, lay aſide this ima<g ref="char:EOLhyphen"/>ginary Philoſophers-Stone, and apply thy Wits in ſome thing that is ſubſtantial and advanta<g ref="char:EOLhyphen"/>gious.</p>
+            </sp>
+            <sp>
+               <speaker>Dr. <hi>Chymiſt,</hi>
+               </speaker>
+               <p>Why faith <hi>Merriman,</hi> I am almoſt weary on't, for after ſo many Years of hard Study, and the throwing away my Money, my Time, and my Brains, (as thou ſay'ſt,) when I thought I was upon the point of having the Philoſophers-Stone in my hand, ſome unlucky Accident or other turn'd all into Smoak, and I was to begin again.</p>
+            </sp>
+            <sp>
+               <speaker>Merr.</speaker>
+               <p>What's here, the <hi>Method</hi> to <hi>Science</hi> and <hi>Solid Philoſophy</hi> by <hi>J. S.</hi> ha,—ha,—ha.—</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Ay! Have you ſeen them? They are inge<g ref="char:EOLhyphen"/>nious Pieces I can aſſure you, and the Author is a Man of parts; he has found out that which no Man ſince the Creation cou'd find out but him<g ref="char:EOLhyphen"/>ſelf; Nay, nor never had been found out, had not the <hi>Divine Providence</hi> made choice of him above all Men of the World to Midwife into the World this wondrous Child, his <hi>Method</hi> to <hi>Science.</hi>
+               </p>
+            </sp>
+            <sp>
+               <pb n="5" facs="tcp:35797:3"/>
+               <speaker>Merr.</speaker>
+               <p>A wondrous Child indeed, a wondrous Monſter, fram'd in his own Brain, that has neither Head, nor Tail; ugly, and deform'd in every part of it: The Beats can lick their Cubs into ſome ſhape, but he can never lick this Whelp of his into any.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Have you read the Book <hi>Merriman,</hi> or do you only ſpeak the malicious words of <hi>J.S</hi>'s Enemies?</p>
+            </sp>
+            <sp>
+               <speaker>Merr.</speaker>
+               <p>Yes, I have read it, and read it, and ſtudied to find out ſomething of ſenſe in it, and ſtill cou'd meet with nothing but Non<g ref="char:EOLhyphen"/>ſenſe. I'll tell you, it looks as if it had been writ by <hi>Oliver</hi>'s Porter in <hi>Bedlam,</hi> 'tis juſt like a Quakers Sermon, take it in pieces and you'l find a great many good ſayings in it; but take it all together 'tis a piece of Nonſenſe. And this you call a wondrous Child, and product of Mr. <hi>J. S</hi>'s Brain, and brought to light by the <hi>Divine Providence,</hi> as he proudly and vainly tells us, I muſt tell you Doctor, the expreſſion out of his his Mouth nauſeates, and ſmells rank of Blaſ<g ref="char:EOLhyphen"/>phemy.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>'Tis ſtrange <hi>Merriman,</hi> that becauſe you cannot comprehend his Demonſtrations, that therefore you'll run down the Book for Non<g ref="char:EOLhyphen"/>ſenſe.</p>
+            </sp>
+            <sp>
+               <pb n="6" facs="tcp:35797:4"/>
+               <speaker>Merr.</speaker>
+               <p>'Tis much more ſtrange Doctor, that you who wou'd be thought a Man of ſenſe, ſhou'd juſtifie and approve ſuch Paradoxes as his Book contains: Why, what's more nonſen<g ref="char:EOLhyphen"/>ſical then to ſee a fellow in an Age of dotage, with one foot in the Grave, peep out, and with a ſpeaking Trumpet tell the World they are all Fools and Coxcombs; that there is not one Man of Senſe to be found in it, and that there never was a Philoſopher till <hi>J. S.</hi> appear'd, and that he was ſent by the <hi>Divine Providence</hi> to teach the World <hi>(which was loſt in ignorance)</hi> the Method to Science. Does not all this look like a Man come out of <hi>Bedlam,</hi> who thinks every Man mad but himſelf? And wou'd not one take him for the <hi>Aſs</hi> in the <hi>Fable,</hi> who had hid himſelf ſome time in a Pit, and at laſt comes out very gravely in a Philoſophers Cloak: <hi>His Maſter ask'd him where he had been ſo long?</hi> And he an<g ref="char:EOLhyphen"/>ſwer'd, <hi>that all that time he had apply'd himſelf to the ſtudy of Philoſophy, and that he was become a very great proficient,</hi> and Doctor, but for all his boaſting of his <hi>Science,</hi> his Cloak was no ſooner pull'd off, but every one knew him to be an <hi>Aſs;</hi> and ſo he was ſeverely chaſtiz'd for his lying and vaunting.</p>
+            </sp>
+            <sp>
+               <pb n="7" facs="tcp:35797:4"/>
+               <speaker>Dr.</speaker>
+               <p>Come, come, <hi>Merriman,</hi> this is all Ma<g ref="char:EOLhyphen"/>lice, and putting upon <hi>J. S.</hi> Why can you be<g ref="char:EOLhyphen"/>lieve that a Man of his Senſe, Learning, and Piety, can be ſo ſenſeleſs and pron'd as to run down all Mankind as ſenſleſs Animals that had never learnt his Method to Science? Or, that there never was any true Philoſophy till he ap<g ref="char:EOLhyphen"/>pear'd in the World?</p>
+            </sp>
+            <sp>
+               <speaker>Merr.</speaker>
+               <p>Nay <hi>Doctor,</hi> 'tis far from Malice, or putting upon him, for I have Demonſtration for what I ſay; his own words <hi>Doctor,</hi> and that is Demonſtration enough. <hi>Seeing Philoſophy reduced to this lamentable condition,</hi> Alaſs poor Philoſophy! <hi>and that ſolid rationality, and all truth in natural Objects were thus in eminent dan<g ref="char:EOLhyphen"/>ger to be over-run, and born down by imaginary Con<g ref="char:EOLhyphen"/>ceits; and apprehending that God's Providence had fitted and enabled me</hi> J. S. <hi>to redreſs ſuch great Miſchiefs;</hi> O brave J. S. <hi>I thought it became me to reinſtate Reaſon in her Soveraignty over fancy.</hi> Sol. Phil. Ep. Ded. p. 8. and in the <hi>Preface</hi> he ſays, <hi>Indeed I muſt own I have a high opinion of my Prin<g ref="char:EOLhyphen"/>ciples, and my Method, which Nature and God's good Providence have lay'd and eſtabliſhed,</hi> pa. 11. What think you of this? Is not all this <hi>Lucife<g ref="char:EOLhyphen"/>rian</hi> Pride! For my part I am ſo far from be<g ref="char:EOLhyphen"/>lieving
+<pb n="8" facs="tcp:35797:5"/> him to be appointed by the <hi>Divine Pro<g ref="char:EOLhyphen"/>vidence</hi> to be the Worlds Maſter, and to teach them this New Philoſophy, that I begin to ſuſpect him to have a Cloven Foot, and that no body but the Devil ſet him on work.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>The truth of it is, he does infinitely a<g ref="char:EOLhyphen"/>bound on his own Senſe, and it was always his fault, which has drawn him into a great ma<g ref="char:EOLhyphen"/>ny Follies, which hath occaſion'd him many diſturbances; I wiſh he had been advis'd and either have writ more modeſtly, or not at all.</p>
+            </sp>
+            <sp>
+               <speaker>Merr.</speaker>
+               <p>How is it poſſible <hi>Doctor</hi> for this Man to be advis'd, who judges all other Men Fools, and himſelf the only wiſe Man in the World! He tells you, <hi>that the World has been ſufficiently peſter'd already with Books of Philoſophy, nay, Vo<g ref="char:EOLhyphen"/>lums blown up to a vaſt bulk with windy and frothy Probabilities, and petty inconcluſive Topicks.</hi> Pre<g ref="char:EOLhyphen"/>face <hi>to</hi> Solid Philoſophy, <hi>ibid.</hi> and who writ theſe vaſt Volums, that contain'd nothing but <hi>windy, frothy, Probabilities;</hi> only the greateſt Wits and Maſters in the World, but ('tis no matter, they are all Fools co Mr. <hi>S.</hi>) but behold now in this latter Age appears a wonder, a Man that ſpeaks no <hi>windy, frothy, Probabilities, nor
+<pb n="9" facs="tcp:35797:5"/> petty inconcluſive Topicks;</hi> but as often as He opens his mouth ſpeaks Demonſtrations, and no Man can ſee them but himſelf.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Whoſe fault is that Mr. <hi>Merriman?</hi> If Men will not ſee when the Demonſtration lies before them, that's no fault of Mr. <hi>J. S.</hi> but if Men wou'd not be prejudic'd, and wou'd but open their Eyes and look through Mr <hi>J. S</hi>'s pro<g ref="char:EOLhyphen"/>ſpective, they wou'd ſee Demonſtrations fly from his Mouth and Pen as thick as Attomes; but let another Man ſpeak, and then you ſhall behold nothing but <hi>windy frothy Probabilities.</hi> O he is certainly a rare Man in this Art of <hi>Demon<g ref="char:EOLhyphen"/>ſtration;</hi> Good man, with what tenderneſs and compaſſion he ſpeaks of the World's ignorance, and blindneſs. <hi>Alaſs!</hi> ſays he, <hi>how few Men are there who will profeſs to demonſtrate in Philoſophy, or to reduce their Diſcourſes to Evidence?</hi> Ibid. p. 13. <hi>Without doing which, and abiding by the Tryal, perhaps there is not one word of truth in all Philoſophy, nor any thing but learn'd Romance in all the <g ref="char:V">Ʋ</g>niverſities of</hi> Europe. And will not you ſay then that the <hi>World was reduc'd to a deplorable condition,</hi> and that he had good reaſon for wri<g ref="char:EOLhyphen"/>ting and publiſhing his <hi>Method</hi> to <hi>Science,</hi> and his <hi>Silod Philoſophy?</hi>
+               </p>
+            </sp>
+            <sp>
+               <pb n="10" facs="tcp:35797:6"/>
+               <speaker>Merr.</speaker>
+               <p>I muſt confeſs <hi>Doctor,</hi> that if his ſay<g ref="char:EOLhyphen"/>ing be a Demonſtrotion of the Worlds igno<g ref="char:EOLhyphen"/>rance, it was in a miſerable condition. Alaſs poor World! <hi>Not a word of truth in all Philoſophy, nor nothing but learned Romance in all the <g ref="char:V">Ʋ</g>niverſi<g ref="char:EOLhyphen"/>ties of</hi> Europe? A ſad buſineſs <hi>Doctor</hi> upon my word; and alaſs this muſt all be true according to <hi>J. S.</hi> For how poſſibly cou'd the <hi>Philoſophers</hi> and the <hi>
+                     <g ref="char:V">Ʋ</g>niverſities</hi> of <hi>Europe</hi> profeſs to <hi>demon<g ref="char:EOLhyphen"/>monſtrate in Philoſophy, or reduce their Diſcourſes to Evidence,</hi> who were totally ignorant of <hi>J. S</hi>'s <hi>Method</hi> to <hi>Science;</hi> and conſequently had no <hi>Solid Philoſophy.</hi> Poor ignorant World! What a bleſſing is't, that the <hi>Divine Providence</hi> ſhou'd ſend a Man at laſt to inform our ignorance, and teach us the way of Truth, what <hi>not one word of Truth, and nothing but learned Romance among ſo many learn'd Men, and ſo many famous</hi> Univerſi<g ref="char:EOLhyphen"/>ties? Why, this is the Devil, who can believe it? I'll tell you what <hi>Doctor,</hi> this requires a ſwinging Demonſtration, the World will never believe it elſe; and I ſuppoſe he writ to be be<g ref="char:EOLhyphen"/>lieved. I'll tell you what, it ſounds very harſh to tell any one Man that he is a Fool, but to go about to demonſtrate him ſo, is certainly the part of a Madman, for no Man deſires to be thought a Fool, tho' he be one; but for a Man
+<pb n="11" facs="tcp:35797:6"/> to go about to demonſtrate all the learned Men that are, and ever have been in the World, to be a company of <hi>empty, windy, frothy Fools and not to have one word of Truth or Solid Philoſophy amongſt them, is the part of a Man diſtracted.</hi> Faith <hi>Doctor,</hi> the beſt way for your friend <hi>J. S.</hi> to come off, of this buſineſs, is to ſay he was intoxi<g ref="char:EOLhyphen"/>cated when he writ theſe Books, for they ſmell rank of the fumes of an intoxicated Brain.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Well, but if he makes all this out by a clear Demonſtration, what will you ſay to him then? For there is not one thing that he aſſerts, but he demonſtrates.</p>
+            </sp>
+            <sp>
+               <speaker>Merr.</speaker>
+               <p>Ay, ſo he tell us. 'Tis granted, there cannot be a clearer proof of a thing then when it is clear'd by Demonſtration; but do you or any Man in the World ſee this Demonſtration of his, does it appear evident to you, that you are a <hi>windy, fro<g ref="char:EOLhyphen"/>thy Fool,</hi> and that there is not one word of Truth in all you ſay, or write, and ask the ſame queſtion of all the learned <hi>Philoſophers,</hi> and fa<g ref="char:EOLhyphen"/>mous <hi>
+                     <g ref="char:V">Ʋ</g>niverſities</hi> in <hi>Europe;</hi> and they'll all tell you they ſee nothing of it, and that nothing but a Man diſtracted wou'd aſſert ſuch a non<g ref="char:EOLhyphen"/>ſenſical Propoſition. Now to demonſtrate, and no Man to ſee the Demonſtration, is a Paradox
+<pb n="12" facs="tcp:35797:7"/> that no one cou'd be the Author of but <hi>J. S.</hi> ask my Lord <hi>D.</hi> to whom he dedicates his Book, if he believed himſelf a Blockhead be<g ref="char:EOLhyphen"/>fore he read <hi>J. S</hi>'s <hi>Method</hi> to <hi>Science,</hi> or his <hi>So<g ref="char:EOLhyphen"/>lod Philoſophy,</hi> and ſee what he'll ſay to you? Well, ſo much for <hi>Ep.</hi> and <hi>Pref.</hi> Now let us have a touch at his <hi>Method</hi> to <hi>Science,</hi> and his <hi>Solid Philoſophy,</hi> and obſerve a little what Para<g ref="char:EOLhyphen"/>doxes we ſhall meet with there, for I can aſſure you he is a Man that does infinitely abound with them.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>And I'll warrant you'll call his Defini<g ref="char:EOLhyphen"/>tion of Notion a Paradox, for which I can aſſure you he values himſelf highly; <hi>a Notion</hi> (ſays he) <hi>is the very thing it ſelf exiſting in my underſtanding,</hi> (and this he ſays) <hi>is ſo manifeſtly true, that were it otherwiſe, it is impoſſible any Man living ſhou'd know any thing at all.</hi> What think you of this? <hi>Solid Philo.</hi> p. 27. §. 3.</p>
+            </sp>
+            <sp>
+               <speaker>Merr.</speaker>
+               <p>What think I of it? Why I cannot but laugh to ſee the <hi>Aſs</hi> mumble Thiſtles, tho' they prick his chops he will be doing with them; he tells you he foreſaw the World wou'd laugh at him for a Man of Paradoxes, at the firſt view of this Propoſition; but for all that he was in mighty pain till he was deliver'd of it, tho' he were ſure to be laught at, and he is much in the
+<pb n="13" facs="tcp:35797:7"/> right of it; for I can aſſure him, he has had as many laughers as have read his Book: Well, I'll ſay that for him he's a bold <hi>Britain,</hi> he ſets the World at defiance, let all the wiſe Men ſay and think what they will, if this Propoſition is not true, <hi>every Man's a Fool, for 'tis impoſſible he ſhou'd know any thing.</hi> Give me leave <hi>Doctor,</hi> this is a dangerous Man to live in a Common<g ref="char:EOLhyphen"/>wealth, a Man can call nothing his own that this Man gets a Notion of. Why, if a Man has a pretty Daughter, or a handfome Wife, he no ſooner gets a Notion of them, but whip they'r gone; he has them himſelf, in the twink<g ref="char:EOLhyphen"/>ling of a Bedſtaff. He comes into a Paſture where there are Droves of fat Bullocks, Flocks of Sheep, Heards of Swine; why, he no ſooner ſees them, but ſlap, he ſweeps them all away: Show him a Gold Watch, a Diamond Ring, a Rope of Pearl, a Purſe of Gold, he no ſooner gets a Notion of them, but <hi>whipſhius, doxious,</hi> they are all gone, he has them all in his poſſeſſi<g ref="char:EOLhyphen"/>on. And this he thinks may be a ſubject matter of laughter; whatever others have had, I'm ſure I have had my belly full, I have not laugh'd ſo this ſeven Years: Bleſs me! That 'tis poſſible for an Old Man to be ſo rediculous; I'll tell you <hi>Doctor,</hi> I wou'd have you adviſe him to ſet up
+<pb n="14" facs="tcp:35797:8"/> for a Conjurer, I fancy he wou'd make a rare one, does he not look ſomething like one? I fancy he does?</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Come you are merry, you are merry, Mr. <hi>Merriman;</hi> I ſee you have not your Name for nothing, why do you think that becauſe he has theſe Real Subſtantial Things really in his Head, that he carries them away with him, and they remain no longer where they were when he had his Notion of them? No, no, tho' he has them all really in his Head, or Underſtanding, they ſtill remain where firſt he conceiv'd a No<g ref="char:EOLhyphen"/>tion of them, he does not carry them away with him, that is a groſs conception indeed.</p>
+            </sp>
+            <sp>
+               <speaker>Merr.</speaker>
+               <p>Hold a little <hi>Doctor,</hi> what ſignifies a Notion, if a Man does not carry it away with him? Now if theſe Subſtantial Bodies really remain where they were before his Notion of them, how poſſibly cou'd theſe Real Subſtanti<g ref="char:EOLhyphen"/>al Bodies be in his Head! Unleſs you'll ſay that a Subſtantial Body can naturally be in a Thou<g ref="char:EOLhyphen"/>ſand places at the ſame time, which is as great a Paradox as the other; give me leave <hi>Doctor</hi> to ask you a queſtion, <hi>J. S.</hi> comes into a Field of <hi>Aſſes,</hi> and he no ſooner ſees them but he con<g ref="char:EOLhyphen"/>ceives a Notion of them, he goes home having conceived, does he carry the <hi>Aſſes</hi> along with
+<pb n="15" facs="tcp:35797:8"/> him, or no? Or, do they ſtill remain in the Field where he firſt conceived them?</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Why, they ſtill remain in the Field, tho' he have a true Notion of them.</p>
+            </sp>
+            <sp>
+               <speaker>Merr.</speaker>
+               <p>Very pretty, but how does this ſtand then with <hi>J. S</hi>'s. Definition of Notion, <hi>for Notion</hi> (ſays he) <hi>is the very</hi> Aſs <hi>it ſelf, no like<g ref="char:EOLhyphen"/>neſs or Idea, but the pure Animal with all its Modes.</hi> Now if he has carried the Beaſts home with him, they are not in the Field; if they are ſtill in the Field, it will prove a falſe con<g ref="char:EOLhyphen"/>ception, and the Notion will become Abortive: And then what will become of poor <hi>J. S.</hi> for if he looſeth his Notion, he looſeth all? If the very <hi>Aſſes</hi> are not in his Head, 'tis Demonſtra<g ref="char:EOLhyphen"/>tion he has nothing in his Head; and for my part I ſhall never believe they are there, till I hear Him <hi>Bray.</hi> I have heard of ſome Men who have had Maggots and Worms in their Heads, and theſe little Animals deprived them of the uſe of Reaſon, they were little better then Fools; what muſt we ſay then of a Man whoſe Head is filled with <hi>Bulls, Bears,</hi> and <hi>Aſſes?</hi> Is not this a likely Man to make Demonſtrati<g ref="char:EOLhyphen"/>ons, and teach the World the <hi>Method</hi> to <hi>Sci<g ref="char:EOLhyphen"/>ence</hi> and <hi>Solid Philoſophy?</hi>
+               </p>
+            </sp>
+            <sp>
+               <pb n="16" facs="tcp:35797:9"/>
+               <speaker>Dr.</speaker>
+               <p>Why prethee <hi>Merriman,</hi> this is all ſham, and banter; I hate to ſee a Man of parts run down at this rate without Rime, or Reaſon; he produces no leſs then fifteen Demonſtrations to prove his Depoſition and you fall a laughing, and cry 'tis nonſenſe; is this a rational way of Arguing.</p>
+            </sp>
+            <sp>
+               <speaker>Merr.</speaker>
+               <p>
+                  <hi>Doctor,</hi> when a Man tells me that the Moon is made of Green Cheeſe, and that the Starrs are in the Centre of the Earth, that eve<g ref="char:EOLhyphen"/>ry Man walks with his heels upwards, that a Man has not free Will, wou'd you have me to diſcourſe this man rationally? No, I laugh at him, and think he is only fit to be ty'd up to a Rack and fed with Hay, as you do a Horſe; but becauſe you deſire it, I anſwer to his firſt Demonſtration. <hi>When I ſimply apprehend the Thing, or any Mode or Accident of it, this Operation of my <g ref="char:V">Ʋ</g>nderſtanding is within my mind,</hi> (ſays J. S.) <hi>and compleated there.</hi> Sol. Phil. p. 29. <hi>I grant it: Therefore the Thing apprehended, which is the Ob<g ref="char:EOLhyphen"/>ject of that Operation muſt be there likewiſe,</hi> ibid. I diſtinguiſh: The Thing apprehended muſt be there likewiſe, Apprehenſively, Intellectually, or Repreſentively I grant him; and this we call an <hi>Idea</hi> of the Thing; but that the <hi>Houſe,</hi> the <hi>City,</hi> the <hi>Aſs,</hi> apprehended, is Really and Sub<g ref="char:EOLhyphen"/>ſtantially
+<pb n="17" facs="tcp:35797:9"/> in the Underſtanding, I deny: And now where is his Demonſtration, and all his other Demonſtrations? For they are all built upon this Bottom, and the conſequence is ſo extravigantly abſur'd, that it deſerves no other Argument then laughter: But come no more of this, let us to another Paradox.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Come let us hear what other Paradox have you found out?</p>
+            </sp>
+            <sp>
+               <speaker>Merr.</speaker>
+               <p>Why, what think you of this: <hi>That it is infinitely more impoſſible, an Angel ſhou'd be changed by God after the firſt Inſtant, then by any other Spirit.</hi> Method <hi>to</hi> Science, p. 309. 310, 311, 313. And what he ſays of an Angel, the ſame conſequently he ſays of a ſeparated Soul. What think you of this, is not this a notori<g ref="char:EOLhyphen"/>ous Paradox? What does this Man mean? Was <hi>Lucifer</hi> and his fellow Angels the firſt In<g ref="char:EOLhyphen"/>ſtant created in a State of Grace, or no? Are they ſtill in that State? If not, how comes this Change? <hi>It cou'd not be from God</hi> (ſays J. S,) <hi>all his Power cou'd not make it, nor from the Angels themſelves, nor from any other Spirit, or Creature whatever.</hi> And yet a notorious Change is made, even from the State of Grace, to the State of Sin. From a State of Bliſs, and Glory, to the State of Damnation. From the State of a
+<pb n="18" facs="tcp:35797:10"/> glorious Angel of Light, to a damn'd Devil, condemn'd to eternal Darkneſs. From a good Angel in Heaven, to a black Devil envellop'd in eternal Torments. Theſe are eternal Truths <hi>Doctor,</hi> deliver'd to us by an eternal Wiſdom, infinitely beyond <hi>J. S</hi>'s Paradoxes, which he has the impudence to call Demonſtrations. Theſe are ſuch demonſtrative Truths I tell you, that they cannot be deni'd without renouncing the <hi>Chriſtian Faith.</hi> And yet <hi>J. S.</hi> is that bold Man who has done it, can I ſay then any thing more modeſt of him then that the Man dotes in his Old Age?</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>But to come off of this Point, ſuppoſing he ſhou'd deny that <hi>Lucifer</hi> and the fallen Angels were created in the State of Grace, and Glory, where are you then? Then your Argument falls to the ground.</p>
+            </sp>
+            <sp>
+               <speaker>Merr.</speaker>
+               <p>Why, if this be his way of coming off, the laſt error will be worſe then the firſt; here he will make God a Tyrant, to create ſuch an infinite of noble Spirits for no other end then Damnation. No, no, I can never believe (tho' he is a bold Man) that he will be ſo bold to ſtrike at the Attributes of God in this Nature. How<g ref="char:EOLhyphen"/>ever, he has drawn a bold ſtroak for the <hi>Deiſts,</hi> and <hi>Atheiſts;</hi> He has clear'd Hell of all the De<g ref="char:EOLhyphen"/>vils,
+<pb n="19" facs="tcp:35797:10"/> not a Devil to be found there, co' <hi>J. S.</hi> For if God with all his Power cou'd make no <hi>Change</hi> in the Angels, after the firſt Inſtant of their Cre<g ref="char:EOLhyphen"/>ation, nor they cou'd make none in themſelves by their Pride vainly thinking to raiſe them<g ref="char:EOLhyphen"/>ſelves to the equality of a God, then they muſt ſtill be in Heaven, where they were in the firſt Inſtant of their Creation, if in Heaven, 'tis clear they are not in Hell; and if they are not in Hell, then there is no Hell; for no Devil, no Hell. Thank you good Mr. <hi>S.</hi> co' Mr <hi>Athieſt,</hi> if your Doctrine be true, we fear no Devils, that we have been Bug-bear'd with ſo long: Your humble ſervant good Mr <hi>J. S.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>But what do you ſay he holds the ſame opinion of the ſeparated Souls? I don't remem<g ref="char:EOLhyphen"/>ber it.</p>
+            </sp>
+            <sp>
+               <speaker>Merr.</speaker>
+               <p>The very ſame <hi>Doctor,</hi> but this is an old <hi>Mumpſimus</hi> of his old Father <hi>Blacklo,</hi> which he is reviveing for fear the old Gentleman ſhou'd be forgotten. It was his opinion that the ſeparated Souls in their intermediate State were not to be deliver'd thence till the Day of Judgment, till the re-union of the Soul and Bo<g ref="char:EOLhyphen"/>dy, and his reaſon was, becauſe a pure Spirit cou'd admit of no Change; but his Scholar has out-done the Maſter, goes a ſtep farther;
+<pb n="20" facs="tcp:35797:11"/> and tells you that by the Omnipotent Power of God they cannot be free'd thence. <hi>God</hi> (ſays J. S.) <hi>withall his Power cannot do it, nor all the Sacriſices and Prayers of the Church ef<g ref="char:EOLhyphen"/>fect it.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Why, <hi>Merriman,</hi> at this rate you'll per<g ref="char:EOLhyphen"/>ſuade me that he denies praying for the Dead, which to my certain knowledge is falſe; for I my ſelf have ſeen him take Money, and good found Summs to pray for the Souls departed.</p>
+            </sp>
+            <sp>
+               <speaker>Merr.</speaker>
+               <p>If he does, he's a damn'd cheat, to take the Peoples Money to pray for that, which he belives is impoſſible to be obtain'd: No, <hi>not by the Omnipotent Power of God.</hi> For accor<g ref="char:EOLhyphen"/>ding to his Principle his Prayers can neither re<g ref="char:EOLhyphen"/>lieve them out of Priſon, nor in the leaſt miti<g ref="char:EOLhyphen"/>gate their pains, and ſufferings. <hi>God</hi> (ſays he) <hi>tho' all powerful, cannot poſſibly Change their State.</hi> Theſe poor people are bravely help'd up with ſuch Mens Prayers: Well, he's a rare fellow, this is your learned <hi>S.</hi> Deliver me from ſuch <hi>Doctors.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Fellow! But why fellow? Prethee <hi>Mer<g ref="char:EOLhyphen"/>riman</hi> treat the Gentleman with civiler Lan<g ref="char:EOLhyphen"/>guage, and be not ſo unmannerly, for I can aſſure you he ſtands very fair in the Eyes of a great many Men, whatever your Judgment may be of him.</p>
+            </sp>
+            <sp>
+               <pb n="21" facs="tcp:35797:11"/>
+               <speaker>Merr.</speaker>
+               <p>I am ſorry for it <hi>Doctor,</hi> Yes faith hear<g ref="char:EOLhyphen"/>tily ſorry for it; for that renders him the more dangerous Man, and as for my unmannerlyneſs, I think I treat him but too civilly, who is ſo un<g ref="char:EOLhyphen"/>mannerly to all Mankind, Nay, even to God himſelf. What ſhall I call a Man that goes a<g ref="char:EOLhyphen"/>bout to rob God of his chief Attributes! But let us proceed.</p>
+               <p>What think you of this, 'tis a piece of <hi>drudge<g ref="char:EOLhyphen"/>ry</hi> (ſays J. S.) <hi>misbecoming the Eſſence of God to be the Immediate Cauſe of Motion or Change.</hi> Meth. <hi>to</hi> Science, Appen. p. 404. §. 26.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>I do remember the expreſſion, and was diſpleas'd with it when I read it.</p>
+            </sp>
+            <sp>
+               <speaker>Merr.</speaker>
+               <p>Pray tell me <hi>Doctor,</hi> who was it that <hi>created</hi> the Angels, was it not God? Nay, was it not God who was the immediate Cauſe of this <hi>Change.</hi> If he were not, pray aſſign me who or what was, for we hear of nothing but God that had a Being before the Angels; or was there here any <hi>Change</hi> made? Glorious Spirits brought to light out of a confus'd <hi>Chaos</hi> of nothing. If this was a <hi>Change,</hi> it cou'd not poſſibly be made but by the immediate hand of God; be<g ref="char:EOLhyphen"/>cauſe, there was then no other Cauſe or Being but God to cauſe this <hi>Change;</hi> when a Sinner is converted, and becomes of a Child of the Devil,
+<pb n="22" facs="tcp:35797:12"/> the Child of God. Is this a <hi>Change</hi> or no? If it be, who was the Cauſe of it? <hi>Not God</hi> (ſays J. S.) <hi>'tis drudgery misbecoming the Eſſence of God to be the immediate Cauſe of ſuch a Converſion or Change.</hi> Was this <hi>Change</hi> made without the immediate Operation of the <hi>Holy Ghoſt?</hi> If the <hi>Divine Grace</hi> was neceſſary for ſuch a <hi>Change,</hi> by what hand was it immediately convey'd to the Soul, but by God's? for I never heard in all my Di<g ref="char:EOLhyphen"/>vinity, that either Men or Angels could give or be the diſpenſer of God's ſaving or ſanctifying Grace. Pray <hi>Doctor</hi> when you ſee your friend <hi>J.S.</hi> tell him he wou'd do much better to apply him<g ref="char:EOLhyphen"/>ſelf to the Study of true and ſolid Divinity, then thus to puzzle his Brain with his New Ima<g ref="char:EOLhyphen"/>ginary <hi>Philoſophy:</hi> For a learned <hi>Doctor</hi> of <hi>Oxford</hi> being ask what he thought of <hi>S</hi>'s <hi>Method</hi> to <hi>Science,</hi> ſaid, <hi>that 'tis a piece of unintellible Non<g ref="char:EOLhyphen"/>ſenſe;</hi> and yet this Man with all his Nonſenſe ſets up to teach all the World. Pray good Mr. <hi>Doctor,</hi> did God make Man or no? Or was it an Angel, or ſome thing elſe that made him! If he did, was there any <hi>Change</hi> or <hi>Motion</hi> made when this Thing called Man was made? Who was it that formed this piece of Earth with a rational Soul, was it not God? And was there no <hi>Change</hi> made here by the immediate hand of
+<pb n="23" facs="tcp:35797:12"/> God. A piece of Earth made an intelligible rational moving Creature, was this the imme<g ref="char:EOLhyphen"/>diate work of God or an Angel; No, <hi>it was a drudgery</hi> (ſays J. S.) <hi>misbecoming God to be the immediate Cauſe of ſuch a</hi> Change <hi>as this.</hi> Poor <hi>S.</hi> I am ſorry for thee with all my heart, that thou pretendeſt to ſo much <hi>Philoſophy,</hi> and art ſo prodigiouſly ignorant in Divinity. Why, hark you <hi>Doctor,</hi> did this Man ever read the <hi>Holy Scriptures?</hi> If he had, he wou'd have found there, how that God in the beginning <hi>created Heaven and Earth: Let us make Man</hi> (ſays God) <hi>to our own Image and likeneſs,</hi> Gen. c. 1. and the whole Chapter tells us how God is the immediate Cauſe of the whole <hi>Creati<g ref="char:EOLhyphen"/>on;</hi> and was all this done without Motion or Change? What ſtuff what nonſenſe is this? I proteſt <hi>Doctor</hi> I am aſhamed of ſuch Para<g ref="char:EOLhyphen"/>doxes as theſe from a Man that pretends to Senſe or Religion; I can aſſure you his way of demonſtrating ſhews him to be a Man of nei<g ref="char:EOLhyphen"/>ther.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>So, ſo, <hi>Merriman,</hi> this is very fine to run down a Man of his parts at this rate; why do you imigine that if theſe Paradoxes of his (as you call them) had been ſo abſur'd as you are pleas'd to make them, that the Learned Zea<g ref="char:EOLhyphen"/>lous
+<pb n="24" facs="tcp:35797:13"/> Reverend Biſhops had not taken notice of them, and damn'd them before this time of day; why are you Mr. <hi>Merriman</hi> the only di<g ref="char:EOLhyphen"/>ſcerning Man in <hi>England</hi> to Judge and Damn M. <hi>S</hi>'s. Principles in the <hi>Method</hi> to <hi>Science</hi> and <hi>Solid Philoſophy.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Merr.</speaker>
+               <p>Nay prethee <hi>Doctor</hi> don't trouble me with the Biſhops not taking notice of his Non<g ref="char:EOLhyphen"/>ſenſe, and Paradoxes; perhaps they have not read his Books, and if they have, if they will be negligent in their Duty, what is that to me? I am not to anſwer for them, but I am to an<g ref="char:EOLhyphen"/>ſwer before God, if I ſee a Man running down Piety, Religion, and God himſelf, if I do not Detect the Villany, and ſtem the Tide; at leaſt put a helping hand to it, if it be in my Province. I'll tell you <hi>Doctor,</hi> Novelties in Re<g ref="char:EOLhyphen"/>ligion are <hi>Monſters,</hi> that every good Man ought to be up in Arms againſt to deſtroy them, for fear they ſhou'd deſtroy us.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Why can you imagin that he has ſent theſe Books into the World without the Biſhops knowledge? No, he is a better Man then ſo, to ſend any thing abroad that may lye under a Cenſure without their Approbation.</p>
+            </sp>
+            <sp>
+               <speaker>Merr.</speaker>
+               <p>I wiſh he were a better Man then he is, Ay faith, heartily wiſh it, and if he has had the
+<pb n="25" facs="tcp:35797:13"/> Biſhops opprobation, he has the leſs to anſwer for, and they the more: But come let us to a<g ref="char:EOLhyphen"/>nother Point.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Another Paradox you mean.</p>
+            </sp>
+            <sp>
+               <speaker>Merr.</speaker>
+               <p>I do ſo, you are much in the right of it. Nay, 'tis what he himſelf Judges the World will take it for, <hi>not only a Paradox, but a very wild one, and little leſs than Blaſphemy;</hi> that is, <hi>if he ſhou'd deny that God can annihilate.</hi> But be<g ref="char:EOLhyphen"/>hold the good Man immediately at this thought bounceth into Rapture and tells us, <hi>that out of the profound and dutiful Reverence I bear to his Wiſdome, Goodneſs, and Power, I muſt declare it is my Tenet that he cannot; any more than he can witneſs a Falſhood, or be liable to any other imper<g ref="char:EOLhyphen"/>fection.</hi> Solid Philo. p. 184. §. 11. I remem<g ref="char:EOLhyphen"/>ber <hi>Spondanus</hi> tells us that this was one of <hi>John Wickleff</hi>'s errors, <hi>that God cou'd not annihilate any thing; which was condemn'd with his other He<g ref="char:EOLhyphen"/>retical Articles in the General Council of</hi> Conſt. <hi>Quos omnes</hi> Synodus <hi>rurſum diligenter examina<g ref="char:EOLhyphen"/>tos perpetuo decreto damnavit.</hi> Annal. Spondan. Anno. Chriſti. 1415. N. 43. 'Tis no matter, tho' eternally damn'd by the <hi>Synod. J. S.</hi> muſt declare that he is of <hi>John Wickleff</hi>'s opinion, 'tis poſitively his Tenet. Now the queſtion is <hi>Do<g ref="char:EOLhyphen"/>ctor,</hi> whether <hi>J. S.</hi> or <hi>John Wickleff</hi> is the bet<g ref="char:EOLhyphen"/>ter
+<pb n="26" facs="tcp:35797:14"/> Chriſtian, was the opinion damnable in <hi>John Wickleff,</hi> and Catholick in <hi>J. S?</hi> What think you of this <hi>Doctor,</hi> this is a Paradox with the Devil at the tail on't?</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Hold, hold, Mr. <hi>Merriman,</hi> not ſo faſt, pray hear his Reaſon. <hi>You judge</hi> (ſays he) <hi>that this limits, and conſequently, takes away the Om<g ref="char:EOLhyphen"/>nipotency of God. But I,</hi> (ſays he) <hi>on the contra<g ref="char:EOLhyphen"/>ry think I have far more reaſon to judge, that the other Opinion argues Impotency, and ours ſettles his Omnipotency. Omnipotency,</hi> (ſays <hi>Mr.</hi> S.) <hi>Is a Power of doing all things: And not of doing no<g ref="char:EOLhyphen"/>thing. To Act, is to do ſomething; and therefore to do nothing or make a nothing (which is the Senſe of Annihilation) is not to do.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Merr.</speaker>
+               <p>
+                  <hi>Omnipotency is a Power of doing all things,</hi> (ſays <hi>J. S.</hi>) I ſay Omnipotency is a Power of doing all things or not doing, what God pleaſeth; tho' it is in his Power to do, what he is pleas'd not to do. 'Tis in the Power of God to create another World, beſides this. But God does not create it, is he therefore leſs powerful? No, before God created the World, was he leſs powerful then he is now? No, and yet it was in his choice, whether he wou'd create it or no. God, we ſay, was creating from all eter<g ref="char:EOLhyphen"/>nity; and yet nothing was created but in time.
+<pb n="27" facs="tcp:35797:14"/> Now, becauſe God does not create as many Worlds as <hi>J. S.</hi> wou'd have him, therefore, co' he, he is an idle God and does nothing. <hi>To act</hi> (ſays he) <hi>is to do ſomething, and therefore to do nothing, or make a nothing,</hi> (which ſays he <hi>is the ſenſe of Annihilation) is not to do.</hi> I poſitively deny that this is the ſenſe of Annihilation, who<g ref="char:EOLhyphen"/>ever underſtood that to annihilate was to make a nothing, but <hi>J. S.?</hi> No; no, to annihilate requires no more in God, then to with-hold his all-protcteing hand, and what <hi>Gods Provi<g ref="char:EOLhyphen"/>dence</hi> is pleaſed no longer to ſupport, and pro<g ref="char:EOLhyphen"/>tect, that momet ceaſeth to be, and is diſolved into its firſt nothing. As for example, I hold a Glaſs in my hand, <hi>then</hi> (ſays J. S.) <hi>you do ſome<g ref="char:EOLhyphen"/>thing.</hi> I do not hold the Glaſs; <hi>then</hi> (ſays he,) <hi>I hold nothing, I do nothing.</hi> But by my not holding the Glaſs, the Glaſs falls, and is broken and deſtroy'd. How! By my doing ſomething or nothing? call it what you pleaſe, the Glaſs is broken, and deſtroy'd, by my not holding it in my hand. So the great Omnipotent Cre<g ref="char:EOLhyphen"/>ator, holds this great Globe the World. 'Tis in his power to let it go, or hold it faſt, is it not? if he is neceſſitated to hold it faſt, then we are not oblig'd to him for his protection; if his <hi>Divine Providence</hi> will hold it no longer
+<pb n="28" facs="tcp:35797:15"/> but let it fall; will it not be diſolv'd to its firſt nothing, and ſo become annihilated. If not, why then the World can ſubſiſt without <hi>Gods Providence;</hi> which according to my Divinity is Blaſphemy; but according to J. S. <hi>'tis a pro<g ref="char:EOLhyphen"/>found and dutyful reverence he bears to the Wiſdom, Goodneſs, and Power of God.</hi> So that ſuppo<g ref="char:EOLhyphen"/>ſing God ſhould with-hold his hand from the protection of ſome little Animal, and by this Ceſſation of <hi>Gods Providence</hi> over this Creature, it becomes annihilated: Mr. <hi>J. S.</hi> immediately falls out with God Almighty, and roars againſt his Wiſdom, Goodneſs, and Power; and ſo he fairly takes his leave of his God, that he had ſuch a profound reverence for.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>But does not the tell you that <hi>God is a pure actuallity of Being, actually and ever exer<g ref="char:EOLhyphen"/>ciſed, and undetermined to Act; that Actual Exiſtence being eſſential to him, his peculiar effect is, to give Exiſtence, or to create things; and to conſerve them in being, which is a perpetual Creation, or Creation continued; and therefore, that 'tis more diametrically oppoſit to his Nature, to cauſe a Not Being, then it is for Light to cauſe Darkneſs.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Merr.</speaker>
+               <p>And is God Doctor <hi>Chymiſt</hi> a leſs actu<g ref="char:EOLhyphen"/>ality of Being, becauſe he did not create the World, or demonſtrate the Effects and <hi>ad extra<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </hi>
+                  <pb n="29" facs="tcp:35797:15"/> of his eternal Creating juſt that critical Minute that <hi>J.S.</hi> wou'd have had him? or does God ceaſe to be a Good, Wiſe, Powerful creating God, becauſe at his pleaſure he with draws his pro<g ref="char:EOLhyphen"/>tecting hand from ſome inconſiderable Fly, or Worm. But after all, the queſtion is not as to matter of Fact, whether God will with-hold his hand from conſerving ſome inconſiderable Inſect; and ſuffer it to periſh, and be annihi<g ref="char:EOLhyphen"/>lated. But the queſtion is peremtorily, whe<g ref="char:EOLhyphen"/>ther God of his Omnipotent Power can poſſibly do it, if he ſo pleaſes; and <hi>J. S.</hi> anſwers poſi<g ref="char:EOLhyphen"/>tively <hi>that tho' it may ſeem to the World a wild Pa<g ref="char:EOLhyphen"/>radox, and little leſs then Blaſphemy that it is his Tenet that he cannot.</hi> Now <hi>Doctor,</hi> what is the meaning of all this, what can be the deſign of belching forth ſuch Blaſphemies, ſuch wild Pa<g ref="char:EOLhyphen"/>radoxes, ſuch unheard of Novelties, ſuch mon<g ref="char:EOLhyphen"/>ſters in Religion? I'll tell you what <hi>Doctor,</hi> it looks with a very ill Face, as if the Man in his Old Age had a Mind to ſtart a New Religion, and leave it behind him for the giddy-headed World to puzzle their Brains, and run Mad after. I remember we read that the <hi>Athenians</hi> made a Law that whoever propoſed any thing New to be inſerted as a Law in the Common-Wealth, was to do it with a Rope about his
+<pb n="30" facs="tcp:35797:16"/> neck, to let him know that if the Senate did not approve of the Novelty, he was immedi<g ref="char:EOLhyphen"/>ately to be hanged. And what ſhall we ſay of ſuch Men who are introducing ſuch monſterous Novelties into <hi>Chriſtian Religion,</hi> ſo notoriouſly to the diſhonour of God, and Chriſtianity? <hi>All Hereticks</hi> (ſays Tert.) <hi>promiſe Reaſon and Knowledge; all of them aſſail Faith with Humane <g ref="char:V">Ʋ</g>nderſtanding. But God teacheth us another way, which is to adore his Miſteries with ſubmiſſion of Spirit, and make of our own proper Judgments a Sacrifice on the Altar of our Faith.</hi> If <hi>J. S.</hi> would do thus, he wou'd not thus fooliſhly perplex his old Head, and the World with his <hi>New Method</hi> of <hi>Paradoxes,</hi> and Nonſenſical <hi>Phi<g ref="char:EOLhyphen"/>loſophy.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>This is very ſharp, <hi>Merriman,</hi> upon Mr. <hi>J. S.</hi> prethee why ſo angry?</p>
+            </sp>
+            <sp>
+               <speaker>Merr.</speaker>
+               <p>I'll tell you <hi>Doctor,</hi> I think I am not ſharp enough in a Cauſe of this Nature, where <hi>Gods Honour,</hi> and the purity of <hi>Chriſtian Religi<g ref="char:EOLhyphen"/>on</hi> is ſo deſperately ſtruck at. Beſides this is not the firſt time that he has been playing theſe tricks; he is conjuring up the old Devil in Phi<g ref="char:EOLhyphen"/>loſophy, that he formerly raiſed in ſome of his Treatiſes of Divinity. But I will not expoſe him more then needs muſt; I'll let his old Er<g ref="char:EOLhyphen"/>rors
+<pb n="31" facs="tcp:35797:16"/> ſleep in Oblivion, ſince they have been ſuf<g ref="char:EOLhyphen"/>ficiently handled by the Ar. Bp. of <hi>Dub.</hi> and damn'd by ſome of the Faculty of <hi>Sorbon.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Damn'd by ſome of the Faculty of <hi>Sor<g ref="char:EOLhyphen"/>bon,</hi> do you ſay? This is what I never heard before.</p>
+            </sp>
+            <sp>
+               <speaker>Merr.</speaker>
+               <p>Yes; yes, damn'd by ſome of the Fa<g ref="char:EOLhyphen"/>culty of <hi>Sorbon,</hi> and in theſe Terms, that three Propoſitions of his cou'd not poſſibly be expli<g ref="char:EOLhyphen"/>cated in a Catholick Senſe. If you deſire to ſee the Propoſitions come to my Houſe and I will ſhew you them.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>Well, <hi>Merriman,</hi> I'm reſolved I'll ac<g ref="char:EOLhyphen"/>quaint Mr. <hi>S.</hi> of all you have ſaid of him, and I'll warrant you he'll give you a <hi>Rowland</hi> for your <hi>Oliver.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Merr.</speaker>
+               <p>Ay, do, and ſpare not <hi>Doctor,</hi> I have ſaid all this I can aſſure you, on purpoſe that you might tell him; perhaps it may do the Man ſome good. And if he deſire to know my Habi<g ref="char:EOLhyphen"/>tation, you may tell him alſo, I live next door to <hi>Dr. H.</hi> if he asks on which ſide on him; <hi>Anſw.</hi> on the Thumb ſide. <hi>If he asks in what Street;</hi> Anſw. <hi>King-ſtreet. If where is that King-ſtreet;</hi> Anſw. <hi>In High-Holbourn. If where is High-Holbourn;</hi> Anſw. <hi>At the Weſt-end of</hi> Lon<g ref="char:EOLhyphen"/>don. <hi>If where is</hi> London; Anſw. <hi>About the
+<pb n="32" facs="tcp:35797:17"/> middle of</hi> England. <hi>And if where is</hi> England; <hi>in ſuch a part of</hi> Europe; <hi>if where is</hi> Europe? Anſw. <hi>In the North-Weſt part of the Earth.</hi> Me<g ref="char:EOLhyphen"/>thod <hi>to</hi> Science, p. 92. <hi>And thus Directed, he will not fail of finding out Your Humble Servant,</hi> Robbin Merriman.</p>
+            </sp>
+            <sp>
+               <speaker>Dr.</speaker>
+               <p>But why all theſe Particulars?</p>
+            </sp>
+            <sp>
+               <speaker>Merr.</speaker>
+               <p>Why this is to ſhew you, that I am well read in <hi>J. S</hi>'s <hi>Method to Science.</hi> This is his very Direction to find out that Skilful Dr. <hi>H.</hi> And ſo my Noble Doctor, good Night.</p>
+            </sp>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
